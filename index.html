@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoservis Jan Pecina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-3xl font-bold">Autoservis Jan Pecina</h1>
+        <p>Specializace na vozy BMW a práce na motorech</p>
+    </header>
+    <nav class="bg-gray-800 text-white p-4">
+        <ul class="flex space-x-4">
+            <li><a href="#sluzby" class="hover:text-blue-300">Služby</a></li>
+            <li><a href="#mapa" class="hover:text-blue-300">Mapa</a></li>
+            <li><a href="#kontakt" class="hover:text-blue-300">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main class="p-4">
+        <section id="sluzby" class="mb-4">
+            <h2 class="text-2xl font-semibold mb-2">Naše služby</h2>
+            <ul class="list-disc list-inside">
+                <li>Práce na motoru</li>
+                <li>Opravy podvozku</li>
+                <li>Karosářské práce</li>
+                <li>Opravy světel</li>
+                <li>Veškeré běžné opravy vozidel</li>
+            </ul>
+        </section>
+        <section id="mapa" class="mb-4">
+            <h2 class="text-2xl font-semibold mb-2">Kde nás najdete</h2>
+            <p>Jablonec v Podještědí</p>
+            <div class="w-full h-96">
+                <iframe
+                    class="w-full h-full"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Jablonec+v+Podještědí+Czech+Republic"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+        <section id="kontakt" class="mb-4">
+            <h2 class="text-2xl font-semibold mb-2">Kontakt</h2>
+            <p>Telefon: [Telefonní číslo]</p>
+            <p>Email: [Emailová adresa]</p>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2023 Autoservis Jan Pecina</p>
+    </footer>
+</body>
+</html>
