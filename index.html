@@ -5,50 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autoservis Jan Pecina</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-blue-600 text-white p-4">
-        <h1 class="text-3xl font-bold">Autoservis Jan Pecina</h1>
-        <p>Specializace na vozy BMW a práce na motorech</p>
+<body class="bg-gray-900 text-gray-100 font-sans leading-normal tracking-normal">
+    <header class="bg-gray-800 text-white p-6 shadow-lg text-center">
+        <h1 class="text-4xl font-extrabold tracking-tight">AUTOSERVIS JAN PECINA</h1>
+        <p class="text-xl text-blue-300 mt-2">Váš specialista na BMW, performance tuning a motorsport v Doksech</p>
     </header>
-    <nav class="bg-gray-800 text-white p-4">
-        <ul class="flex space-x-4">
-            <li><a href="#sluzby" class="hover:text-blue-300">Služby</a></li>
-            <li><a href="#mapa" class="hover:text-blue-300">Mapa</a></li>
-            <li><a href="#kontakt" class="hover:text-blue-300">Kontakt</a></li>
+    <nav class="bg-gray-700 text-white p-4 sticky top-0 z-50 shadow-md">
+        <ul class="container mx-auto flex justify-center space-x-6 font-semibold">
+            <li><a href="#o-nas" class="hover:text-blue-400 transition duration-300">O Nás</a></li>
+            <li><a href="#sluzby" class="hover:text-blue-400 transition duration-300">Služby</a></li>
+            <li><a href="#galerie" class="hover:text-blue-400 transition duration-300">Galerie</a></li>
+            <li><a href="#mapa" class="hover:text-blue-400 transition duration-300">Mapa</a></li>
+            <li><a href="#kontakt" class="hover:text-blue-400 transition duration-300">Kontakt</a></li>
         </ul>
     </nav>
-    <main class="p-4">
-        <section id="sluzby" class="mb-4">
-            <h2 class="text-2xl font-semibold mb-2">Naše služby</h2>
-            <ul class="list-disc list-inside">
-                <li>Práce na motoru</li>
-                <li>Opravy podvozku</li>
-                <li>Karosářské práce</li>
-                <li>Opravy světel</li>
-                <li>Veškeré běžné opravy vozidel</li>
-            </ul>
+    <main class="container mx-auto p-6 md:p-8 bg-gray-900">
+        <section id="o-nas" class="mb-12 py-8 px-6 bg-gray-800 shadow-xl rounded-lg text-center">
+            <h2 class="text-3xl font-bold mb-6 text-blue-400">Vítejte v Autoservisu Jan Pecina – Kde Vášeň Pro BMW Ožívá</h2>
+            <p class="text-lg mb-4 leading-relaxed text-gray-300">
+                Jsme více než jen běžný autoservis. Jsme vaše specializovaná dílna v srdci Doks, zaměřená na vozy BMW – od ctihodných klasik z 90. let až po nejmodernější stroje nabité technologií.
+                Naše poslání? Poskytovat precizní, detailní a komplexní péči o váš vůz, ať už jde o rutinní údržbu nebo náročné úpravy.
+            </p>
+            <p class="text-lg mb-4 leading-relaxed text-gray-300">
+                Náš moderně vybavený servis disponuje prostorem pro současnou práci až na šesti vozech a je vybaven třemi zvedáky, což nám umožňuje flexibilně a efektivně reagovat na vaše potřeby.
+                Když k nám přijedete, často uvidíte okolo patnácti vozů v různém stádiu renovace či tuningu – mnohé z nich jsou BMW připravované pro náročné podmínky driftu. To je důkazem naší expertizy a vášně pro motorsport.
+            </p>
+             <p class="text-lg leading-relaxed text-gray-300">
+                Ať už hledáte spolehlivý servis pro vaše denní BMW, chcete probudit skrytý potenciál vašeho motoru, nebo sníte o stavbě konkurenceschopného drift speciálu, Autoservis Jan Pecina je vaše cílová destinace.
+            </p>
         </section>
-        <section id="mapa" class="mb-4">
-            <h2 class="text-2xl font-semibold mb-2">Kde nás najdete</h2>
-            <p>Jablonec v Podještědí</p>
-            <div class="w-full h-96">
+
+        <section id="sluzby" class="mb-12 py-8 px-6 bg-gray-800 shadow-xl rounded-lg">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-400">Naše Služby – Od Standardní Údržby po Extrémní Výkon</h2>
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-6 text-lg text-gray-300">
+                <div class="p-6 bg-gray-750 rounded-md shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-300 border-b-2 border-blue-500 pb-2">Pro Vaše BMW – Standardní i Pokročilý Servis</h3>
+                    <ul class="list-disc list-inside pl-4 space-y-2">
+                        <li><strong>Kompletní diagnostika motorů BMW:</strong> Moderní i starší generace.</li>
+                        <li><strong>Generální opravy motorů:</strong> Vdechneme nový život vašemu agregátu.</li>
+                        <li><strong>Servis a opravy podvozků:</strong> Výměna ramen, tlumičů, silentbloků, precizní geometrie.</li>
+                        <li><strong>Karosářské práce:</strong> Od drobných oprav po komplexní renovace a opravy po nehodách.</li>
+                        <li><strong>Opravy a seřízení světel:</strong> Včetně upgradů na moderní LED technologie.</li>
+                        <li><strong>Pravidelné servisní prohlídky:</strong> Dle nejpřísnějších standardů BMW.</li>
+                        <li><strong>Příprava na STK</strong> a její zajištění.</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-750 rounded-md shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-300 border-b-2 border-blue-500 pb-2">Performance Tuning a Motorsport</h3>
+                    <ul class="list-disc list-inside pl-4 space-y-2">
+                        <li><strong>Tuning motoru (Engine Tuning):</strong> Chiptuning, individuální mapování řídících jednotek, mechanické úpravy pro maximální výkon a spolehlivost.</li>
+                        <li><strong>Stavba a úpravy vozů pro motorsport:</strong> Specializace na driftovací speciály BMW.</li>
+                        <li><strong>Instalace sportovních podvozků:</strong> Coilovery, stavitelné stabilizátory, unibaly.</li>
+                        <li><strong>Výkonné brzdové systémy:</strong> Větší kotouče, vícepístkové třmeny, pancéřové hadice.</li>
+                        <li><strong>Výfukové systémy na míru:</strong> Od decentního zvuku po agresivní závodní projev.</li>
+                        <li><strong>Individuální konzultace:</strong> Pomůžeme vám naplánovat úpravy přesně podle vašich představ a cílů.</li>
+                        <li><strong>Svařování ochranných rámů</strong> a další specifické úpravy.</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mt-8 text-center text-xl text-gray-200">
+                V Autoservisu Jan Pecina kombinujeme hluboké technické znalosti s vášní pro automobily. Svěřte nám své BMW a zažijte rozdíl, který přináší péče skutečných profesionálů.
+            </p>
+        </section>
+
+        <section id="galerie" class="mb-12 py-8 px-6 bg-gray-800 shadow-xl rounded-lg">
+            <h2 class="text-3xl font-bold mb-6 text-center text-blue-400">Naše Práce: Repasované BMW (1990-2020)</h2>
+            <!-- Swiper -->
+            <div class="swiper-container h-96 w-full rounded-lg overflow-hidden">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide flex items-center justify-center"><img src="images/bmw1.jpg" alt="Repasované BMW 1" class="max-h-full max-w-full object-contain"></div>
+                    <div class="swiper-slide flex items-center justify-center"><img src="images/bmw2.jpg" alt="Repasované BMW 2" class="max-h-full max-w-full object-contain"></div>
+                    <div class="swiper-slide flex items-center justify-center"><img src="images/bmw3.jpg" alt="Repasované BMW 3" class="max-h-full max-w-full object-contain"></div>
+                    <div class="swiper-slide flex items-center justify-center"><img src="images/bmw4.jpg" alt="Repasované BMW 4" class="max-h-full max-w-full object-contain"></div>
+                    <div class="swiper-slide flex items-center justify-center"><img src="images/bmw5.jpg" alt="Repasované BMW 5" class="max-h-full max-w-full object-contain"></div>
+                    <div class="swiper-slide flex items-center justify-center"><img src="images/bmw6.jpg" alt="Repasované BMW 6" class="max-h-full max-w-full object-contain"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next text-blue-400"></div>
+                <div class="swiper-button-prev text-blue-400"></div>
+            </div>
+        </section>
+
+        <section id="mapa" class="mb-8 p-6 bg-gray-800 shadow-xl rounded-lg">
+            <h2 class="text-3xl font-bold mb-6 text-center text-blue-400">Kde nás najdete</h2>
+            <p class="text-center text-lg mb-4">Valdštejnská 424, 47201 Doksy</p>
+            <div class="w-full h-96 rounded-lg overflow-hidden shadow-md">
                 <iframe
                     class="w-full h-full"
                     frameborder="0" style="border:0"
-                    src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Jablonec+v+Podještědí+Czech+Republic"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAzohtt9_9Up1Y6inqJjEay5riw0XgD9s0&q=Valdštejnská+424,+Doksy+Czech+Republic"
                     allowfullscreen>
                 </iframe>
             </div>
         </section>
-        <section id="kontakt" class="mb-4">
-            <h2 class="text-2xl font-semibold mb-2">Kontakt</h2>
-            <p>Telefon: [Telefonní číslo]</p>
-            <p>Email: [Emailová adresa]</p>
+        <section id="kontakt" class="mb-8 p-6 bg-gray-800 shadow-xl rounded-lg">
+            <h2 class="text-3xl font-bold mb-6 text-center text-blue-400">Kontaktujte Nás</h2>
+            <p class="text-center text-lg">Máte dotaz nebo si chcete domluvit termín? Jsme tu pro vás!</p>
+            <p class="text-center text-xl mt-4">Telefon: <a href="tel:+420777123456" class="text-blue-400 hover:text-blue-300">+420 777 123 456</a> (Po-Pá 8:00-17:00)</p>
+            <p class="text-center text-xl">Email: <a href="mailto:info@autopecina.cz" class="text-blue-400 hover:text-blue-300">info@autopecina.cz</a></p>
         </section>
     </main>
-    <footer class="bg-gray-800 text-white p-4 text-center">
-        <p>&copy; 2023 Autoservis Jan Pecina</p>
+    <footer class="bg-gray-800 text-white p-6 text-center border-t border-gray-700">
+        <p>&copy; 2023 Autoservis Jan Pecina. Všechna práva vyhrazena.</p>
+        <p class="text-sm text-gray-400">Specializovaný servis BMW a performance tuning.</p>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
 </body>
 </html>
